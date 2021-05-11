@@ -1,0 +1,15 @@
+if TARGET_BE_MBM10
+
+config SYS_BOARD
+	default "be_mbm10"
+
+config SYS_VENDOR
+	default "be"
+
+config SYS_SOC
+	default "be-soc"
+
+config SYS_CONFIG_NAME
+	default "be-mbm10"
+
+endif
